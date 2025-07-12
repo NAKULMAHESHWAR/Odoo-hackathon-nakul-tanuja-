@@ -17,22 +17,7 @@ A full-stack web application that enables users to **offer and request skills** 
 
 ## 🗂️ Project Structure
 
-skill-swap-backend/
-├── routes/
-├── uploads/
-├── db.js
-├── server.js
-├── .env
-├── package.json
-├── skill_user.sql <-- Database schema
-└── node_modules/ <-- (Already uploaded)
-
-skill-swap-frontend/
-├── src/
-├── public/
-├── package.json
-└── node_modules/ <-- (Already uploaded)
-
+<pre> skill-swap-backend/ ├── routes/ ├── uploads/ ├── db.js ├── server.js ├── .env ├── package.json ├── skill_user.sql <-- Database schema └── node_modules/ <-- (Already uploaded) skill-swap-frontend/ ├── src/ ├── public/ ├── package.json └── node_modules/ <-- (Already uploaded) </pre>
 
 ---
 
