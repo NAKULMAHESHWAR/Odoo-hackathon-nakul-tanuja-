@@ -1,0 +1,85 @@
+/* src/styles.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form, .container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.swap-item, .user-item {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.swap-item button, .user-item button {
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
